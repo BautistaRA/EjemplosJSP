@@ -13,6 +13,7 @@
         <title>Insert title here</title>
     </head>
     <body>
+        <h1>Desglose de monedas</h1>
         <%
             if (request.getParameter("pasta") != null && request.getParameter("pasta") != "") {
                 double dinero = Double.parseDouble(request.getParameter("pasta"));
