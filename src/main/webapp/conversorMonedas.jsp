@@ -12,6 +12,7 @@
 <title>Conversiones</title>
 </head>
 <body>
+    <h2>  conversiones (elena)</h2>
        <%
              if (request.getParameter("euros") != null && request.getParameter("euros") != ""){
                     Double euros = Double.parseDouble(request.getParameter("euros"));
